@@ -1,0 +1,20 @@
+{
+    "MATCH_DATE" : "26-6-2014",
+    "TOTAL_PLAYER_COUNT": "6",
+    "TOTAL_SCORE" : "0",
+    "TEAMS" : [
+        {
+        "TEAM_NAME" : "GDI",
+        "TEAM_PLAYER_COUNT" : "3",
+        "TEAM_SCORE" : "3447",
+        "TEAM_MEMBERS" : ["themaddog", "420blazer", "JAY"]
+        },
+        {
+        "TEAM_NAME" : "Nod",
+        "TEAM_PLAYER_COUNT" : "3",
+        "TEAM_SCORE" : "9565",
+        "TEAM_MEMBERS" : ["Ali", "ZehnTRGF", "LAPTOP-DA"]
+        },
+    
+    ]
+}
