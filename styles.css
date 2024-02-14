@@ -12,10 +12,18 @@ body {
 h1 {
   color: orange;
   text-align: center;
+  font-family: arial;
 }
 
-p {
-  color: yellow;
-  font-family: verdana;
-  font-size: 20px;
+.server_info {
+    color: yellow;
+    font-family: arial;
+    text-align: left;
+}
+
+.link_to_stats {
+    color: green;
+    font-family: arial;
+    text-align: center;
+    align-items: center;
 }
