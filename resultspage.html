@@ -4,19 +4,29 @@ This page will be used to display the exported results.
 -->
 <html>
     <head>
-        <title>LAN Results</title>
+        <title>Multiplayer LAN Results</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stlyesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css" /> 
     </head>
     <body>
         <h1>LAN RESULTS</h1>
-            <div class="server_info"> 
-            <!-- This div should (preferably) contain server information -->
-            <dl>
-                <dt><b>Servername:</b></dt>
-            </dl>
-            
+            <div class="server_info"> <!-- This div should (preferably) contain server information -->
+                <dl>
+                    <dd><b>Servername:</b></dd>
+                    <dd><b>Type:</b></dd>
+                </dl>
+            </div>
+            <div class="link_to_stats"> <!-- this div will contain links to other pages -->
+                <ul>
+                    <li><a href="player_stats"><b>player stats</b></a></li> <!-- This will link to a page which should show all players that once connected, and theirs in-game stats -->
+                    <li><a href="map_stats.html"><b>map stats</b></a></li> <!-- This will link to stats per played map -->
+                    <li><a href="winrate.html"><b>winrate</b></a></li> <!-- this will link to page where it should show the winrate Nod vs GDI, per map per player -->
+                </ul>
+            </div>
+            <div class="recent_stats"> <!-- the most recent game stats should be displayed here -->
+                <div class="balance_percentage"></div> <!-- This should show team balance. Which team had the highest score, most kills, best K/D etc -->
+                <div class="score_board"></div> <!-- This will display the scoreboard of the most recent match -->
             </div>
     </body>
 </html>
