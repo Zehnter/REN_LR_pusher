@@ -1,0 +1,21 @@
+
+/* 
+    Created on : Feb 14, 2024, 1:12:46 AM
+    Author     : Zehnter
+    comment    : This is still a work in progress.
+*/
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+p {
+  color: yellow;
+  font-family: verdana;
+  font-size: 20px;
+}
